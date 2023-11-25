@@ -1,4 +1,4 @@
-import { Box, Image, Stack, Text } from "@chakra-ui/react";
+import { Stack } from "@chakra-ui/react";
 import SectionTitle from "./SectionTitle";
 import SkillsSet from "./SkillsSet";
 import javascript from "../assets/skills/javascript.png";

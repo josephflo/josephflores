@@ -8,7 +8,6 @@ import {
     Tag,
     Text,
 } from "@chakra-ui/react";
-import React, { useEffect, useState } from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 function ProjectCard({ data }: { data: any }) {

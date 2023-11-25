@@ -1,14 +1,13 @@
 import {
     Button,
     FormControl,
-    FormHelperText,
     FormLabel,
     Input,
     Stack,
     Textarea,
     useToast,
 } from "@chakra-ui/react";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 import { useForm, SubmitHandler } from "react-hook-form";
@@ -26,7 +25,7 @@ function ContactForm() {
         register,
         handleSubmit,
     } = useForm<Inputs>();
-    const onSubmit: SubmitHandler<Inputs> = (data, e) => {
+    const onSubmit: SubmitHandler<Inputs> = (_, e) => {
         e?.preventDefault();
         emailjs
             .sendForm(

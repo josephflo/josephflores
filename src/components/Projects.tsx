@@ -1,5 +1,4 @@
 import { Image, Stack } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
 import SectionTitle from "./SectionTitle";
 import background from "../assets/stripes.png";
