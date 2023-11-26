@@ -7,7 +7,7 @@ function Projects() {
     const projects = ([
         {
             "id": "3",
-            "name": "NFTicket",
+            "name": "DriveFlix",
             "description": "Project developed in group. Marketplace for buying events tickets as NFTs, through the creation of smart contracts and interacting with the blockchain. Allows you to create your own event and sell your own tickets through a connection with MetaMask.",
             "techstack": [
                 "NextJS",
@@ -18,8 +18,8 @@ function Projects() {
                 "Solidity",
                 "Chakra-ui"
             ],
-            "deploy": "https://nftickets.netlify.app/",
-            "code": "https://github.com/martinsione/ticketek-web3",
+            "deploy": "https://driveflix.vercel.app/",
+            "code": "https://github.com/josephflo/driveflix_car_page_nextjs13_",
             "img": "https://wbskev9st1.execute-api.us-east-1.amazonaws.com/dev/bucketportfolio/projects/nfticket.jpg"
         },
         {
@@ -96,7 +96,7 @@ function Projects() {
                             />
                         ))}
             </Stack>
-            <Image
+            {/* <Image
                 alt={"Background image"}
                 src={background}
                 w={{ base: "auto", lg: "fit-content" }}
@@ -115,7 +115,7 @@ function Projects() {
                 bottom={{ base: -40, lg: -10 }}
                 right={{ base: -20, lg: -10 }}
                 zIndex={-1}
-            />
+            /> */}
         </Stack>
     );
 }
