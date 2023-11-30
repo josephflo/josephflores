@@ -53,12 +53,13 @@ function ContactForm() {
     };
     return (
         <Stack
-            minW={{ base: "100%", lg: "80%" }}
+            minW={{ base: "80%", lg: "80%" }}
             h={{ base: "100%", lg: "fit-content" }}
             boxShadow={"lg"}
-            p={"2rem"}
+            p={{ base: "2rem", lg: "8rem" }}
             rounded={"lg"}
             bg={"white"}
+            
         >
             <form ref={form} onSubmit={handleSubmit(onSubmit)}>
                 <FormControl isRequired>

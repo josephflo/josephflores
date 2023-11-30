@@ -14,6 +14,7 @@ import sequelize from "../assets/skills/sequelize.png";
 import prisma from "../assets/skills/prisma.png";
 import git from "../assets/skills/git.png";
 import figma from "../assets/skills/figma.png";
+import tailwindcss from '../assets/skills/tailwindcss.svg'
 
 function Skills() {
   const front = [
@@ -36,6 +37,10 @@ function Skills() {
     {
       name: "Chakra-ui",
       logo: chakra,
+    },
+    {
+      name: "TailwindCss",
+      logo: tailwindcss,
     },
   ];
   const back = [

@@ -9,14 +9,15 @@ function Contact() {
     <Stack id="contact" minH={"100vh"} pt={"10vh"}>
       <SectionTitle title="CONTACT ME" />
       <Stack
-        p={{ base: "1rem 2rem", lg: "1rem 7rem 1rem 7rem" }}
         alignItems={"center"}
         justifyContent={"center"}
+        minW={"80%"}  
       >
         <Stack
-          w={{ base: "100%", lg: "80%" }}
+          w={{ base: "100%", lg: "100%" }}
           flexDir={"row"}
           justifyContent={"space-evenly"}
+          
         >
           <Link
             href="https://www.linkedin.com/in/josephflodev/"

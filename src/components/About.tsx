@@ -1,5 +1,5 @@
 import { Image, Stack, Text, Link, Button } from "@chakra-ui/react";
-import profile from "../assets/profile2.png";
+import profile from "../assets/profile4.png";
 import resume from "../assets/CV-JOSEPH-3.pdf";
 import SectionTitle from "./SectionTitle";
 function About() {
